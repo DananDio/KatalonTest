@@ -21,19 +21,3 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://staging.gramedia.com/')
 
-WebUI.waitForElementClickable(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/button_Masuk'), 4)
-
-WebUI.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/button_Masuk'))
-
-WebUI.waitForElementClickable(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/input_email'), 2)
-
-WebUI.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/input_email'))
-
-WebUI.setText(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/input_email'), 'budibudi@gmail.com')
-
-WebUI.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/input_password'))
-
-WebUiBuiltInKeywords.setText(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/input_password'), 'budibudi')
-
-WebUiBuiltInKeywords.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/button_submitLogin'))
-
