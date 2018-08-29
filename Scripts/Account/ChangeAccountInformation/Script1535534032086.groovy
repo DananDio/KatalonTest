@@ -21,3 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUiBuiltInKeywords.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/button_Account'))
 
+WebUI.comment('new test cases')
+
