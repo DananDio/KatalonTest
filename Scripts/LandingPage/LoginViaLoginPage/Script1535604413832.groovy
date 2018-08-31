@@ -19,9 +19,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUiBuiltInKeywords.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/button_Account'))
+WebUI.openBrowser('https://staging.gramedia.com/')
 
-WebUI.comment('new test cases')
+WebUI.waitForElementClickable(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/Button_BagIcon'), 4)
 
-WebUI.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Button_myAccount'))
+WebUiBuiltInKeywords.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/Button_BagIcon'))
+
+WebUI.waitForElementClickable(findTestObject('gramedia.LoginPage/input_emailLoginPage'), 2)
+
+WebUI.click(findTestObject('gramedia.LoginPage/input_emailLoginPage'))
+
+WebUI.setText(findTestObject('gramedia.LoginPage/input_emailLoginPage'), 'budibudi@gmail.com')
+
+WebUI.click(findTestObject('gramedia.LoginPage/input_PasswordLoginPage'))
+
+WebUiBuiltInKeywords.setText(findTestObject('gramedia.LoginPage/input_PasswordLoginPage'), 'budibudi')
+
+WebUiBuiltInKeywords.click(findTestObject('gramedia.LoginPage/button_submitLoginPage'))
+
+WebUI.waitForPageLoad(10)
+
+WebUiBuiltInKeywords.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/Button_BagIcon'))
 
