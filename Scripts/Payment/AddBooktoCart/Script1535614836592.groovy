@@ -23,5 +23,11 @@ WebUiBuiltInKeywords.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/L
 
 WebUiBuiltInKeywords.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/button_businessCategory'))
 
-WebUiBuiltInKeywords.click(findTestObject('SearchPage/ItemTest'))
+WebUiBuiltInKeywords.click(findTestObject('SearchPage/ItemTestMetaPagination', [('product') : 'Pulpen']))
+
+WebUiBuiltInKeywords.click(findTestObject('PDPPage/TambahKeranjang'))
+
+WebUiBuiltInKeywords.click(findTestObject('PDPPage/Button_LanjutKKeranjang'))
+
+WebUiBuiltInKeywords.click(findTestObject('CartPage/Button_LanjutkanPmbayaran'))
 

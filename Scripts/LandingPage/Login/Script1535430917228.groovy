@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.openBrowser('https://staging.gramedia.com/')
+WebUI.openBrowser('https://staging.gramedia.com/')
 
 WebUI.waitForElementClickable(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/button_Masuk'), 4)
 
