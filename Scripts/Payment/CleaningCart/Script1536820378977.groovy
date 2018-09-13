@@ -19,21 +19,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://staging.gramedia.com/')
+int count = 0
 
-WebUI.waitForElementClickable(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/button_Masuk'), 4)
+while (WebUI.verifyElementPresent(findTestObject('Object Repository/CartPage/Button_Hapus'), 2, FailureHandling.OPTIONAL) == 
+true) {
+    WebUI.click(findTestObject('Object Repository/CartPage/Button_Hapus'))
 
-WebUI.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/button_Masuk'))
+    WebUI.delay(2)
 
-WebUI.waitForElementClickable(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/input_email'), 2)
+    count++
 
-WebUI.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/input_email'))
+}
 
-WebUI.setText(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/input_email'), GlobalVariable.EmailBudi)
-
-WebUI.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/input_password'))
-
-WebUiBuiltInKeywords.setText(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/input_password'), GlobalVariable.PasswordBudi)
-
-WebUiBuiltInKeywords.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/button_submitLogin'))
-
+println(count);
