@@ -19,16 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-int count = 0
 
 while (WebUI.verifyElementPresent(findTestObject('Object Repository/CartPage/Button_Hapus'), 2, FailureHandling.OPTIONAL) == 
 true) {
     WebUI.click(findTestObject('Object Repository/CartPage/Button_Hapus'))
 
     WebUI.delay(2)
-
-    count++
-
 }
 
-println(count);
