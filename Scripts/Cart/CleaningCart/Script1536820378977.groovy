@@ -23,7 +23,7 @@ while (WebUI.verifyElementPresent(findTestObject('Object Repository/CartPage/But
 true) {
     CustomKeywords.'customKeyword.JavascriptClick.clickUsingJS'(findTestObject('CartPage/Button_Hapus'), 0)
 
-    CustomKeywords.'customKeyword.JavascriptClick.clickUsingJS'(findTestObject('CartPage/Button_ConfirmHapus'), 0)
+    CustomKeywords.'customKeyword.JavascriptClick.clickUsingJS'(findTestObject('CartPage/Button_Confirm Hapus'), 0)
 
     WebUI.delay(2)
 }

@@ -27,7 +27,7 @@
       <guid>cae32f23-545b-4ca7-a302-9f861c2150f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LandingPage/AddBooktoCart</testCaseId>
+      <testCaseId>Test Cases/LandingPage/SearchItemBusiness</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1790a6f1-f957-4a97-8cb5-4f903282cc37</guid>
