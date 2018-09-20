@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_Hapus</name>
+   <name>Button_ConfirmHapus</name>
    <tag></tag>
-   <elementGuidId>170b0ca6-e140-4df4-85b1-d134a01f188c</elementGuidId>
+   <elementGuidId>c8e056d0-64b1-45c5-956a-3874957753f3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;cart-container&quot;]/ul/li/gm-cart-summary/div[1]/div[4]/a</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;cart-container&quot;]/ul/li/gm-cart-summary/div[1]/div[4]/a</value>
+      <value>//*[@id=&quot;cdk-overlay-14&quot;]/mat-dialog-container/gm-cart-dialog/div/div[3]/button[1]</value>
    </webElementProperties>
 </WebElementEntity>
