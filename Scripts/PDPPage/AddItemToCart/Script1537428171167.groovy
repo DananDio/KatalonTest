@@ -19,15 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUiBuiltInKeywords.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/Button_CategoryHeader'))
-
-WebUiBuiltInKeywords.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/button_businessCategory'))
-
-WebUiBuiltInKeywords.click(findTestObject('SearchPage/ItemTestMetaPagination', [('product') : 'Pulpen']))
-
 WebUiBuiltInKeywords.click(findTestObject('PDPPage/TambahKeranjang'))
 
-WebUiBuiltInKeywords.click(findTestObject('PDPPage/Button_LanjutKKeranjang'))
-
-WebUiBuiltInKeywords.click(findTestObject('CartPage/Button_LanjutkanPmbayaran'))
+CustomKeywords.'customKeyword.JavascriptClick.clickUsingJS'(findTestObject('PDPPage/button_Lanjut ke keranjang'), 0)
 

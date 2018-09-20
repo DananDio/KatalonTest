@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login</name>
+   <name>ToPDP_PopulerItem</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e60db790-c307-4366-826d-35dd10b86127</testCaseGuid>
+   <testCaseGuid>a2cc85cb-65bc-48da-b8e3-28da932e7bce</testCaseGuid>
 </TestCaseEntity>

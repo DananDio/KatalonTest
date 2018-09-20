@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_LanjutKKeranjang</name>
+   <name>Button_PopularItem</name>
    <tag></tag>
-   <elementGuidId>d07d9c98-2176-4b63-ad41-5351bfdebb22</elementGuidId>
+   <elementGuidId>889bee55-a8b8-4872-9ee4-9b4ee2543780</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;cdk-overlay-1&quot;]/mat-dialog-container/gm-add-to-cart-notif/div/div[2]/button[2]</value>
+         <value>//*[@id=&quot;content&quot;]/gm-home/div[1]/gm-home-carousel[1]/div/div[2]/div[2]/gm-carousel-list/div/ul/div/div/li[3]	</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;cdk-overlay-3&quot;]/mat-dialog-container/gm-add-to-cart-notif/div/div[2]/button[2]</value>
+      <value>//*[@id=&quot;content&quot;]/gm-home/div[1]/gm-home-carousel[1]/div/div[2]/div[2]/gm-carousel-list/div/ul/div/div/li[3]	</value>
    </webElementProperties>
 </WebElementEntity>
