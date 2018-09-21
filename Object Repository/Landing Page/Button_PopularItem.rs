@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;content&quot;]/gm-home/div[1]/gm-home-carousel[1]/div/div[2]/div[2]/gm-carousel-list/div/ul/div/div/li[3]	</value>
+         <value>//*[@id=&quot;content&quot;]/gm-home/div[1]/gm-home-carousel[1]/div/div[2]/div[2]/gm-carousel-list/div/ul/div/div/li[${i}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;content&quot;]/gm-home/div[1]/gm-home-carousel[1]/div/div[2]/div[2]/gm-carousel-list/div/ul/div/div/li[3]	</value>
+      <value>//*[@id=&quot;content&quot;]/gm-home/div[1]/gm-home-carousel[1]/div/div[2]/div[2]/gm-carousel-list/div/ul/div/div/li[${i}]</value>
    </webElementProperties>
 </WebElementEntity>

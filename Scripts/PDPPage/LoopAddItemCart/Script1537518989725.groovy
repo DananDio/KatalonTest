@@ -19,21 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://staging.gramedia.com/')
-
-WebUI.waitForElementClickable(findTestObject('Landing Page/button_Masuk'), 4)
-
-WebUI.click(findTestObject('Landing Page/button_Masuk'))
-
-WebUI.waitForElementClickable(findTestObject('Landing Page/input_email'), 2)
-
-WebUI.click(findTestObject('Landing Page/input_email'))
-
-WebUI.setText(findTestObject('Landing Page/input_email'), GlobalVariable.EmailBudi)
-
-WebUI.click(findTestObject('Landing Page/input_password'))
-
-WebUiBuiltInKeywords.setText(findTestObject('Landing Page/input_password'), GlobalVariable.PasswordBudi)
-
-WebUiBuiltInKeywords.click(findTestObject('Landing Page/button_submitLogin'))
+CustomKeywords.'customKeyword.JavascriptClick.clickUsingJS'(findTestObject('PDPPage/TambahKeranjang'), 0)
 

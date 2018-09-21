@@ -19,21 +19,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://staging.gramedia.com/')
+//int i=1
+for (int i = 1; i <= 5; i++) {
+    WebUI.waitForPageLoad(3)
 
-WebUI.waitForElementClickable(findTestObject('Landing Page/button_Masuk'), 4)
+    WebUiBuiltInKeywords.click(findTestObject('Landing Page/Button_PopularItem', [('i') : i]))
 
-WebUI.click(findTestObject('Landing Page/button_Masuk'))
+    WebUI.callTestCase(findTestCase('PDPPage/LoopAddItemCart'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Landing Page/input_email'), 2)
-
-WebUI.click(findTestObject('Landing Page/input_email'))
-
-WebUI.setText(findTestObject('Landing Page/input_email'), GlobalVariable.EmailBudi)
-
-WebUI.click(findTestObject('Landing Page/input_password'))
-
-WebUiBuiltInKeywords.setText(findTestObject('Landing Page/input_password'), GlobalVariable.PasswordBudi)
-
-WebUiBuiltInKeywords.click(findTestObject('Landing Page/button_submitLogin'))
+    WebUI.navigateToUrl('https://staging.gramedia.com/')
+}
 
