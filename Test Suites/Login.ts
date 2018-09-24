@@ -33,6 +33,6 @@
       <guid>1790a6f1-f957-4a97-8cb5-4f903282cc37</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payment/CheckoutPayment</testCaseId>
+      <testCaseId>Test Cases/Cart/ContinueToCheckout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

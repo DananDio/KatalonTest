@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://staging.gramedia.com/')
 
-WebUI.waitForElementClickable(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/Button_BagIcon'), 4)
+WebUI.waitForElementClickable(findTestObject('Landing Page/Button_BagIcon'), 4)
 
-WebUiBuiltInKeywords.click(findTestObject('Page_Toko Buku Online Terbesar  Gra/Landing Page/Button_BagIcon'))
+WebUiBuiltInKeywords.click(findTestObject('Landing Page/Button_BagIcon'))
 
 WebUI.waitForElementClickable(findTestObject('gramedia.LoginPage/input_emailLoginPage'), 2)
 
