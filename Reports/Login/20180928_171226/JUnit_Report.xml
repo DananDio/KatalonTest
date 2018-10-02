@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="18" tests="2" failures="0" errors="0">
+   <testsuite name="Login" tests="2" failures="0" errors="0" time="18" timestamp="2018-09-28 17:12:29" hostname="danandio - 172.16.141.87" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/danandio/git/KatalonGramedia/Reports/Login/20180928_171226"/>
+         <property name="logFiles" value="/Users/danandio/git/KatalonGramedia/Reports/Login/20180928_171226/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="danandio - 172.16.141.87"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="172.16.141.87"/>
+         <property name="sessionId" value="446e0e75f5d01ff9d550c53ddd8b0a26"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/OpenBrowser" classname="Test Cases/OpenBrowser" status="PASSED">
+         <system-out><![CDATA[2018-09-28 17:12:29 - [TEST_CASE][PASSED] - Test Cases/OpenBrowser: Test Cases/OpenBrowser
+
+2018-09-28 17:12:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://staging.gramedia.com/'
+
+2018-09-28 17:12:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging.gramedia.com/']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LandingPage/Login" classname="Test Cases/LandingPage/Login" status="PASSED">
+         <system-out><![CDATA[2018-09-28 17:12:40 - [TEST_CASE][PASSED] - Test Cases/LandingPage/Login: Test Cases/LandingPage/Login
+
+2018-09-28 17:12:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://staging.gramedia.com/'
+
+2018-09-28 17:12:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-28 17:12:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging.gramedia.com/'
+
+2018-09-28 17:12:46 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Landing Page/button_Masuk' is clickable
+
+2018-09-28 17:12:46 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page/button_Masuk' is clickable
+
+2018-09-28 17:12:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Landing Page/button_Masuk' is clicked on
+
+2018-09-28 17:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Landing Page/button_Masuk' is clicked on
+
+2018-09-28 17:12:46 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Landing Page/input_email' is clickable
+
+2018-09-28 17:12:47 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page/input_email' is clickable
+
+2018-09-28 17:12:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Landing Page/input_email' is clicked on
+
+2018-09-28 17:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Landing Page/input_email' is clicked on
+
+2018-09-28 17:12:47 - [TEST_STEP][PASSED] - setText: Text 'budigramedia@gmail.com' is set on object 'Object Repository/Landing Page/input_email'
+
+2018-09-28 17:12:47 - [MESSAGE][PASSED] - Text 'budigramedia@gmail.com' is set on object 'Object Repository/Landing Page/input_email'
+
+2018-09-28 17:12:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Landing Page/input_password' is clicked on
+
+2018-09-28 17:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Landing Page/input_password' is clicked on
+
+2018-09-28 17:12:47 - [TEST_STEP][PASSED] - setText: Text 'budi123' is set on object 'Object Repository/Landing Page/input_password'
+
+2018-09-28 17:12:47 - [MESSAGE][PASSED] - Text 'budi123' is set on object 'Object Repository/Landing Page/input_password'
+
+2018-09-28 17:12:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Landing Page/button_submitLogin' is clicked on
+
+2018-09-28 17:12:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Landing Page/button_submitLogin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-28 17:12:29 - [TEST_SUITE][PASSED] - Login: Test Cases/LandingPage/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TesBuyAllPopularItem" time="44" tests="3" failures="0" errors="1">
+   <testsuite name="TesBuyAllPopularItem" tests="3" failures="0" errors="1" time="44" timestamp="2018-09-27 11:26:08" hostname="danandio - 172.16.141.87" id="Test Suites/TesBuyAllPopularItem">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/danandio/git/KatalonGramedia/Reports/TesBuyAllPopularItem/20180927_112606"/>
+         <property name="logFiles" value="/Users/danandio/git/KatalonGramedia/Reports/TesBuyAllPopularItem/20180927_112606/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="danandio - 172.16.141.87"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="172.16.141.87"/>
+         <property name="sessionId" value="ee6857884cacd0a1d31c6af2661b397c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/LandingPage/LihatKeranjang" classname="Test Cases/LandingPage/LihatKeranjang" status="PASSED">
+         <system-out><![CDATA[2018-09-27 11:26:08 - [TEST_CASE][PASSED] - Test Cases/LandingPage/LihatKeranjang: Test Cases/LandingPage/LihatKeranjang
+
+2018-09-27 11:26:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Landing Page/Button_BagIcon' is clicked on
+
+2018-09-27 11:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Landing Page/Button_BagIcon' is clicked on
+
+2018-09-27 11:26:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Landing Page/button_Lihat Keranjang' is present
+
+2018-09-27 11:26:15 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page/button_Lihat Keranjang' is present
+
+2018-09-27 11:26:15 - [TEST_STEP][PASSED] - customKeyword.JavascriptClick.clickUsingJS: customKeyword.JavascriptClick.clickUsingJS is PASSED
+
+2018-09-27 11:26:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-27 11:26:17 - [MESSAGE][PASSED] - customKeyword.JavascriptClick.clickUsingJS is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/ContinueToCheckout" classname="Test Cases/Cart/ContinueToCheckout" status="PASSED">
+         <system-out><![CDATA[2018-09-27 11:26:17 - [TEST_CASE][PASSED] - Test Cases/Cart/ContinueToCheckout: Test Cases/Cart/ContinueToCheckout
+
+2018-09-27 11:26:17 - [TEST_STEP][PASSED] - customKeyword.JavascriptClick.clickUsingJS: customKeyword.JavascriptClick.clickUsingJS is PASSED
+
+2018-09-27 11:26:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-27 11:26:19 - [MESSAGE][PASSED] - customKeyword.JavascriptClick.clickUsingJS is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/PembayaranViaBCA_Auto" classname="Test Cases/Checkout/PembayaranViaBCA_Auto" status="ERROR">
+         <error type="ERROR" message="Test Cases/Checkout/PembayaranViaBCA_Auto FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CheckoutPage/RadioButton_ATMBCA_Otomatis' located by 'By.xpath: //*[@id=&quot;gm-checkout-payment&quot;]/form/div[1]/div[1]/ul/li[2]/label' not found"/>
+         <system-out><![CDATA[2018-09-27 11:26:19 - [TEST_CASE][ERROR] - Test Cases/Checkout/PembayaranViaBCA_Auto: Test Cases/Checkout/PembayaranViaBCA_Auto FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CheckoutPage/RadioButton_ATMBCA_Otomatis' located by 'By.xpath: //*[@id="gm-checkout-payment"]/form/div[1]/div[1]/ul/li[2]/label' not found
+
+2018-09-27 11:26:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CheckoutPage/Button_LanjutkanPmbayaran' is clicked on
+
+2018-09-27 11:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/Button_LanjutkanPmbayaran' is clicked on
+
+2018-09-27 11:26:21 - [TEST_STEP][ERROR] - customKeyword.JavascriptClick.clickUsingJS: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CheckoutPage/RadioButton_ATMBCA_Otomatis' located by 'By.xpath: //*[@id="gm-checkout-payment"]/form/div[1]/div[1]/ul/li[2]/label' not found
+
+2018-09-27 11:26:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-27 11:26:52 - [MESSAGE][ERROR] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CheckoutPage/RadioButton_ATMBCA_Otomatis' located by 'By.xpath: //*[@id="gm-checkout-payment"]/form/div[1]/div[1]/ul/li[2]/label' not found]]></system-out>
+         <system-err><![CDATA[2018-09-27 11:26:19 - [TEST_CASE][ERROR] - Test Cases/Checkout/PembayaranViaBCA_Auto: Test Cases/Checkout/PembayaranViaBCA_Auto FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CheckoutPage/RadioButton_ATMBCA_Otomatis' located by 'By.xpath: //*[@id="gm-checkout-payment"]/form/div[1]/div[1]/ul/li[2]/label' not found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LandingPage/CloseBrowser" classname="Test Cases/LandingPage/CloseBrowser" status="PASSED">
+         <system-out><![CDATA[2018-09-27 11:26:52 - [TEST_CASE][PASSED] - Test Cases/LandingPage/CloseBrowser: Test Cases/LandingPage/CloseBrowser
+
+2018-09-27 11:26:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-27 11:26:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-27 11:26:08 - [TEST_SUITE][INCOMPLETE] - TesBuyAllPopularItem: null]]></system-out>
+      <system-err><![CDATA[2018-09-27 11:26:08 - [TEST_SUITE][INCOMPLETE] - TesBuyAllPopularItem: null]]></system-err>
+   </testsuite>
+</testsuites>

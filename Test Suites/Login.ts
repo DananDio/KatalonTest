@@ -4,12 +4,12 @@
    <name>Login</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-10T16:17:14</lastRun>
+   <lastRun>2018-09-28T17:15:49</lastRun>
    <mailRecipient>danandio.24@gmail.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <testSuiteGuid>015c2330-fb7f-4a7d-91a9-02c7737a6170</testSuiteGuid>
    <testCaseLink>
       <guid>e48fba97-162d-4286-96a2-c6dea3cb2e1c</guid>
@@ -22,17 +22,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/LandingPage/Login</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cae32f23-545b-4ca7-a302-9f861c2150f9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/LandingPage/SearchItemBusiness</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1790a6f1-f957-4a97-8cb5-4f903282cc37</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Cart/ContinueToCheckout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

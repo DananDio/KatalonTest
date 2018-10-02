@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TesBuyAllPopularItem,Chrome 69.0.3497.100,,2018-09-27 11:26:08,2018-09-27 11:26:52,44.005s,INCOMPLETE
+,,,,,,
+Test Cases/LandingPage/LihatKeranjang,Chrome 69.0.3497.100,,2018-09-27 11:26:08,2018-09-27 11:26:17,8.637s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-27 11:26:09,2018-09-27 11:26:15,6.357s,PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-09-27 11:26:15,2018-09-27 11:26:15,0.126s,PASSED
+customKeyword.JavascriptClick.clickUsingJS,Chrome 69.0.3497.100,,2018-09-27 11:26:15,2018-09-27 11:26:17,1.850s,PASSED
+,,,,,,
+Test Cases/Cart/ContinueToCheckout,Chrome 69.0.3497.100,,2018-09-27 11:26:17,2018-09-27 11:26:19,1.798s,PASSED
+customKeyword.JavascriptClick.clickUsingJS,Chrome 69.0.3497.100,,2018-09-27 11:26:17,2018-09-27 11:26:19,1.646s,PASSED
+,,,,,,
+Test Cases/Checkout/PembayaranViaBCA_Auto,Chrome 69.0.3497.100,,2018-09-27 11:26:19,2018-09-27 11:26:52,33.063s,ERROR
+click,Chrome 69.0.3497.100,,2018-09-27 11:26:19,2018-09-27 11:26:21,1.964s,PASSED
+customKeyword.JavascriptClick.clickUsingJS,Chrome 69.0.3497.100,,2018-09-27 11:26:21,2018-09-27 11:26:52,31.002s,ERROR
+,,,,,,
+Test Cases/LandingPage/CloseBrowser,Chrome 69.0.3497.100,,2018-09-27 11:26:52,2018-09-27 11:26:52,0.164s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-09-27 11:26:52,2018-09-27 11:26:52,0.066s,PASSED

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TesBuyAllPopularItem,Chrome 69.0.3497.100,,2018-09-27 11:21:33,2018-09-27 11:21:49,15.901s,FAILED
+,,,,,,
+Test Cases/LandingPage/Login,Chrome 69.0.3497.100,,2018-09-27 11:21:33,2018-09-27 11:21:43,10.058s,FAILED
+openBrowser,Chrome 69.0.3497.100,,2018-09-27 11:21:34,2018-09-27 11:21:41,7.166s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-27 11:21:41,2018-09-27 11:21:41,0.225s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-27 11:21:41,2018-09-27 11:21:41,0.155s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-27 11:21:41,2018-09-27 11:21:41,0.107s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-27 11:21:41,2018-09-27 11:21:42,0.859s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-27 11:21:42,2018-09-27 11:21:43,1.222s,FAILED
+,,,,,,
+Test Cases/LandingPage/AddItem_Loop_PopularItemPage,Chrome 69.0.3497.100,,2018-09-27 11:21:43,2018-09-27 11:21:45,1.265s,FAILED
+"Statement - For ([i = 1, i <= 5, (i++)])",Chrome 69.0.3497.100,,2018-09-27 11:21:44,2018-09-27 11:21:45,1.032s,FAILED
+,,,,,,
+Test Cases/Cart/ContinueToCheckout,Chrome 69.0.3497.100,,2018-09-27 11:21:45,2018-09-27 11:21:49,3.807s,ERROR
+customKeyword.JavascriptClick.clickUsingJS,Chrome 69.0.3497.100,,2018-09-27 11:21:45,2018-09-27 11:21:49,3.698s,ERROR
+,,,,,,
+Test Cases/Checkout/PembayaranViaBCA_Auto,Chrome 69.0.3497.100,,2018-09-27 11:21:49,2018-09-27 11:21:49,0.137s,FAILED
+click,Chrome 69.0.3497.100,,2018-09-27 11:21:49,2018-09-27 11:21:49,0.027s,FAILED
+,,,,,,
+Test Cases/LandingPage/CloseBrowser,Chrome 69.0.3497.100,,2018-09-27 11:21:49,2018-09-27 11:21:49,0.183s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-09-27 11:21:49,2018-09-27 11:21:49,0.102s,PASSED
